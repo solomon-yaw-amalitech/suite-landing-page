@@ -1,0 +1,50 @@
+
+:root{
+    --primary-color:#eb2f64;
+    --primar-light: #FF3366;
+    --primary-dark: #BA265D;
+    --secondary-color:rgb(238, 20, 20);
+    --primary-green: rgb(4, 129, 15);
+    --primary-light-green: rgb(2, 170, 16);
+     --grey-light-1: #faf9f9;
+    --grey-light-2: #f4f2f2;
+    --grey-light-3:#f0eeee;
+    --grey-light : #fcfcfc;
+    --grey-dark-1: #333;
+    --grey-dark-2: #777;
+    --grey-dark-3: #999;
+    --shadow-dark: 0rem 2rem 6rem rgba(#000000,0.6);
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: var(--grey-light);
+}
+
+
+
+
+/** styles for header **/
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
+
+.header_logo{
+    font-weight:bolder;
+}
+
+.head_button{
+   padding: 0.7rem;
+   background-color: var(--grey-light);
+}
