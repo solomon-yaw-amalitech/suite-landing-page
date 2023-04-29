@@ -4,7 +4,7 @@
     --primar-light: #FF3366;
     --primary-dark: #BA265D;
     --secondary-color:rgb(238, 20, 20);
-    --primary-green: rgb(4, 129, 15);
+    --dark-blue: rgb(13, 17, 60);
     --primary-light-green: rgb(2, 170, 16);
      --grey-light-1: #faf9f9;
     --grey-light-2: #f4f2f2;
@@ -47,4 +47,81 @@ body{
 .head_button{
    padding: 0.7rem;
    background-color: var(--grey-light);
+   font-weight: bolder;
+   border-radius: 0.5rem;
+}
+/** styles for About section **/
+.section-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 75%;
+    margin: auto;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    z-index: 1;
+}
+
+.first_text1{
+    font-size: 3rem;
+    margin-top: 6rem;
+    letter-spacing: 0.05rem;
+}
+
+.first_text2{
+    margin-top: 4rem;
+    width: 40%;
+   
+    
+}
+
+.first_button{
+    margin-top: 4rem;
+    width:10rem;
+    background-color: var(--dark-blue);
+    color: #ffffff;
+    padding: 0.65rem;
+    border: none;
+    font-weight:bold;
+    font-size: 0.8rem;
+    border-radius: 0.4rem;
+}
+
+.second_img{
+    margin-left: -33.8rem;
+    z-index: 1;
+}
+
+.second_image{
+
+}
+
+.third{
+display: flex;
+flex-direction: column;
+justify-content:flex-start  ;
+margin-left: -11rem;
+}
+
+.achievement{
+    display: flex;
+    flex-direction: column;
+}
+
+.third_text1
+{
+    margin-top: 8rem;
+    color: var(--dark-blue);
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+.third_text2{
+text-transform: uppercase;
+font-size: 0.7rem;
+font-weight: 500;
 }
