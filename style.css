@@ -49,6 +49,7 @@ body{
    background-color: var(--grey-light);
    font-weight: bolder;
    border-radius: 0.5rem;
+ 
 }
 /** styles for About section **/
 .section-about{
@@ -57,7 +58,7 @@ body{
     justify-content: space-evenly;
     width: 75%;
     margin: auto;
-    margin-bottom: 7rem;
+    
 }
 
 .first{
@@ -90,6 +91,7 @@ body{
     font-weight:bold;
     font-size: 0.8rem;
     border-radius: 0.4rem;
+    
 }
 
 .second_img{
@@ -98,7 +100,7 @@ body{
 }
 
 .second_image{
-
+    margin-top: 1.5rem;
 }
 
 .third{
@@ -296,5 +298,11 @@ font-weight: 500;
     font-size: 2rem;
     margin-top: 2rem;
   }
+
+  .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
 }
