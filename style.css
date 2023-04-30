@@ -222,7 +222,9 @@ font-weight: 500;
         margin-top: 2rem;
         letter-spacing: 0.01rem;
         margin-bottom: 2rem;
+        margin-left: 2.5rem;
     }
+    
 
     .first_text2{
         margin-top: 10rem;
@@ -277,5 +279,4 @@ font-weight: 500;
     margin: auto;
     border-radius: 1rem;
 }
-
 }
