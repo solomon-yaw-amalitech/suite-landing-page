@@ -183,3 +183,56 @@ font-weight: 500;
 .footer p{
     font-size: 0.8rem;
 }
+
+
+
+/** media query for smaller screen size, especially mobile phones **/
+@media only screen and (max-width: 600px) {
+
+    .header{
+        margin: 0rem;
+    margin-right: 0.2rem;
+    margin-left: 0.3rem;
+    margin-top: 1rem;
+    }
+
+    .header_logo{
+        font-weight:bolder;
+        font-size: 0.7rem;
+    }
+    
+    .head_button{
+       padding: 0.7rem;
+       font-weight: bold;
+       border-radius: 0.5rem;
+       font-size: 0.6rem;
+    }
+
+    .section-about{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    .first_text1{
+        font-size: 2rem;
+        margin-top: 2rem;
+        letter-spacing: 0.01rem;
+        margin-bottom: 2rem;
+    }
+
+    .first_text2{
+        margin-top: 10rem;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 1.5rem;
+       }
+
+       .first_button{
+        margin-top: 2rem;
+        margin: auto;
+    }
+}
