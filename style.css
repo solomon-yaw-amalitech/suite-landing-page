@@ -103,11 +103,12 @@ body{
     font-weight:bold;
     font-size: 0.8rem;
     border-radius: 0.4rem;
-    
+    -o-transition-delay: 2s;
 }
 
 .first_button:hover{
     background-image: linear-gradient(to right,violet, rgb(240, 75, 10));
+    transition: all 0.4s;
 }
 
 .first_button:active{
