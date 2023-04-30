@@ -243,8 +243,9 @@ font-weight: 500;
         margin: 0rem;
         z-index: 1;
         margin-top: 1rem;
-        width: 100px;
-        height: 0px;
+        width: 120%;
+        margin-left: 2rem;
+
     }
 
     .third{
