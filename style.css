@@ -51,6 +51,18 @@ body{
    border-radius: 0.5rem;
  
 }
+
+.head_button:hover {
+    background-color:var(--dark-blue);
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  
+  .head_button:active {
+    background-color:var(--dark-blue);
+  }
+
 /** styles for About section **/
 .section-about{
     display: flex;
