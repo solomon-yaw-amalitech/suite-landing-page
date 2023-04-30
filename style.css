@@ -199,6 +199,7 @@ font-weight: 500;
     .header_logo{
         font-weight:bolder;
         font-size: 0.7rem;
+        margin-left: 2rem;
     }
     
     .head_button{
