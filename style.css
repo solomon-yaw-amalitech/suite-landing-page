@@ -109,6 +109,7 @@ body{
 .first_button:hover{
     background-image: linear-gradient(to right,violet, rgb(240, 75, 10));
     transition: all 0.4s;
+    cursor: pointer;
 }
 
 .first_button:active{
