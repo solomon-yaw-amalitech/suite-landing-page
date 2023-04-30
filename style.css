@@ -6,7 +6,7 @@
     --secondary-color:rgb(238, 20, 20);
     --dark-blue: rgb(10, 13, 41);
     --primary-light-green: rgb(2, 170, 16);
-     --grey-light-1: #faf9f9;
+     --light-brown: #e8d9d9;
     --grey-light-2: #f4f2f2;
     --grey-light-3:#f0eeee;
     --grey-light : #fcfcfc;
@@ -140,6 +140,7 @@ font-weight: 500;
 .testimonial_image{
     margin-top: -5rem;
     padding-left: 4rem;
+    z-index: 2;
 }
 
 .testimonial_text{
@@ -161,4 +162,24 @@ font-weight: 500;
 
 .person_name{
     text-transform: uppercase;
+}
+
+/** styles for footer section **/
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    margin: auto;
+    background-color: var(--light-brown);
+    padding-top: 3rem;
+    padding-bottom: 3rem;   
+    padding-left: 2rem;
+    padding-right: 10rem;
+  
+}
+
+.footer p{
+    font-size: 0.8rem;
 }
