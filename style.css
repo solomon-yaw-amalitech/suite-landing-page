@@ -106,6 +106,14 @@ body{
     
 }
 
+.first_button:hover{
+    background-image: linear-gradient(to right,violet, rgb(240, 75, 10));
+}
+
+.first_button:active{
+    background-image: linear-gradient(to right,violet, rgb(240, 75, 10));
+}
+
 .second_img{
     margin-left: -33.8rem;
     z-index: 1;
