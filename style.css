@@ -244,12 +244,14 @@ font-weight: 500;
         z-index: 1;
         margin-top: 1rem;
         width: 120%;
+        height: 0px;
         margin-left: 2rem;
-
+        
     }
 
     .third{
         justify-content:flex-start;
+        align-items: center;
         flex-direction: row;
         margin-left: 0rem;
         margin-top: 38rem;
