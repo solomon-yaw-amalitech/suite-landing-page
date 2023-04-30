@@ -235,4 +235,47 @@ font-weight: 500;
         margin-top: 2rem;
         margin: auto;
     }
+
+    .second_img{
+        margin: 0rem;
+        z-index: 1;
+        margin-top: 1rem;
+        width: 100px;
+        height: 0px;
+    }
+
+    .third{
+        justify-content:flex-start;
+        flex-direction: row;
+        margin-left: 0rem;
+        margin-top: 38rem;
+        margin-left: 8rem;
+    
+        
+    }
+
+    .achievement{
+        display: flex;
+        flex-direction: column;
+        justify-content: start   ;
+        margin-bottom: 4rem; 
+    }
+
+    .third_text1
+{
+    margin-top: 2rem;
+    color: var(--dark-blue);
+    font-size: 2rem;
+    font-weight: bold;  
+}
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+   margin-top: 10rem;
+    width: 100%;
+    margin: auto;
+    border-radius: 1rem;
+}
+
 }
