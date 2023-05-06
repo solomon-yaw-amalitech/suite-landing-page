@@ -44,9 +44,8 @@ margin-bottom: -5rem;
 .head_button{
    padding: 0.7rem;
    background-color: var(--grey-light);
-   font-weight: 700;
+   font-weight: bolder;
    border-radius: 0.5rem;
-   font-size: 1rem;
  
 }
 
@@ -66,7 +65,7 @@ margin-bottom: -5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 69.376;
+    width: 75%;
     margin: auto;
     margin-bottom: 13rem;
     
@@ -163,8 +162,7 @@ font-weight: 500;
     display: flex;
     background-color: var(--dark-blue);
     color: var(--cream);
-    width: 69.313rem;
-    height: 34.063rem;
+    width: 65%;
     margin: auto;
     border-radius: 1rem;
 }
@@ -202,13 +200,13 @@ font-weight: 500;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 69.313rem;
+    width: 50%;
     margin: auto;
     background-color: var(--light-brown);
     padding-top: 3rem;
     padding-bottom: 3rem;   
     padding-left: 2rem;
-    padding-right: 2rem;
+    padding-right: 10rem;
   
 }
 
@@ -260,12 +258,8 @@ font-weight: 500;
         font-size: 2rem;
         margin-top: 2rem;
         letter-spacing: 0.01rem;
-        line-height: 4.875;
         margin-bottom: 2rem;
         margin-left: 2.5rem;
-        font-weight: 400;
-        font-size: 4.5rem;
-        letter-spacing: -0.063;
     }
     
 
