@@ -4,6 +4,7 @@
     --dark-blue:  #172339;
      --grey-dark: #49566D;
      --cream-white:#FAF8F6;
+     --grey-light: #F2F2F2;
      --cream: #F3EDE7;
 }
 
@@ -26,32 +27,38 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 2rem;
-    margin-right: 10rem;
-    margin-left: 10rem;
+    margin: auto;
+    margin-top: 3.588rem;
     align-items: center;
+    width: 56.301rem;
 }
 
 .ark{
-margin-left: 12.5rem;
-margin-bottom: -5rem;
+    margin-top: 2rem;
+margin-left: 15.5rem;
+margin-bottom: -9rem;
+color: var(--dark-blue);
 }
 
 .header_logo{
     font-weight:bolder;
+    color: var(--dark-blue);
 }
 
 .head_button{
    padding: 0.7rem;
-   background-color: var(--grey-light);
-   font-weight: bolder;
+   color: var(--dark-blue);
    border-radius: 0.5rem;
+   line-height:2rem;
+   font-size: 1rem;
+   font-weight: 700;
+   letter-spacing: -0.01rem;
  
 }
 
 .head_button:hover {
     background-color:var(--dark-blue);
-    color: #ffffff;
+    color: var(--cream-white);
     cursor: pointer;
     transition: all 0.4s;
   }
@@ -65,9 +72,10 @@ margin-bottom: -5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 75%;
+    width: 69.376rem;
     margin: auto;
     margin-bottom: 13rem;
+    margin-top: 3.15rem;
     
 }
 
@@ -79,27 +87,33 @@ margin-bottom: -5rem;
 }
 
 .first_text1{
-    font-size: 3rem;
+    font-size: 4.5rem;
     margin-top: 6rem;
     letter-spacing: 0.05rem;
     color: var( --dark-blue);
+    font-weight: 400;
+    line-height: 4.875rem;
+    letter-spacing: -1px;
+    margin-top: 7.5881rem;
 }
 
 .first_text2{
     margin-top: 4rem;
     width: 40%; 
     color: var( --grey-dark);
+    line-height: 2rem;
 }
 
 .first_button{
     margin-top: 4rem;
-    width:10rem;
+    width:16rem;
+    line-height: 2rem;
     background-color: var(--dark-blue);
     color: var(--cream-white);
     padding: 0.65rem;
     border: none;
-    font-weight:bold;
-    font-size: 0.8rem;
+    font-weight:700;
+    font-size:1.125rem;
     border-radius: 0.4rem;
     -o-transition-delay: 2s;
 }
@@ -122,6 +136,7 @@ margin-bottom: -5rem;
     margin-left: -33.8rem;
     z-index: 1;
     margin-bottom: 2rem;
+    width: 21.875rem;
 }
 
 .second_image{
