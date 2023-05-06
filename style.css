@@ -74,7 +74,7 @@ color: var(--dark-blue);
     justify-content: space-evenly;
     width: 69.376rem;
     margin: auto;
-    margin-bottom: 13rem;
+    margin-bottom: 12rem;
     margin-top: 3.15rem;
     
 }
@@ -180,13 +180,13 @@ font-weight: 500;
     display: flex;
     background-color: var(--dark-blue);
     color: var(--cream);
-    width: 65%;
+    width:69.313rem;
     margin: auto;
     border-radius: 1rem;
 }
 
 .testimonial_image{
-    margin-top: -5rem;
+    margin-top: -4rem;
     padding-left: 4rem;
     z-index: 2;
 }
