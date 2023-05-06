@@ -203,7 +203,6 @@ font-weight: 500;
     justify-content: space-between;
     align-items: center;
     width: 69.313rem;
-    height: 2rem;
     margin: auto;
     background-color: var(--light-brown);
     padding-top: 3rem;
@@ -332,12 +331,11 @@ font-weight: 500;
 }
 
 .testimonial_image{
+    margin-top: 2rem;
     margin-top: -6rem;
     padding-left: 2rem;
     padding-left: 2rem;
     margin-right: 40rem;
-    height: 36.848rem;
-    width: 22.488rem;
 }
 
 .testimonial_title{
