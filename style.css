@@ -30,14 +30,20 @@ body{
     margin: auto;
     margin-top: 3.588rem;
     align-items: center;
-    width: 56.301rem;
+    width: 66.301rem;
 }
 
 .ark{
     margin-top: 2rem;
-margin-left: 15.5rem;
+margin-left: 17.5rem;
 margin-bottom: -9rem;
 color: var(--dark-blue);
+}
+
+.ark2{
+    margin-top:10rem ;
+    margin-left: 2rem;
+    margin-right: -1rem;
 }
 
 .header_logo{
@@ -133,7 +139,7 @@ color: var(--dark-blue);
 }
 
 .second_img{
-    margin-left: -33.8rem;
+    margin-left: -30.8rem;
     z-index: 1;
     margin-bottom: 2rem;
     width: 21.875rem;
@@ -199,18 +205,37 @@ font-weight: 500;
 }
 
 .testimonial_title{
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 0.5rem;
+  font-weight: 400;
+  line-height: 3.5rem;
+  letter-spacing: -0.031rem;
 }
 
 .testimonial_text p{
-  width: 90%;  
+  font-weight: 400; 
+  width:80%; 
   margin-bottom: 2rem;
+  font-size: 1.25;
+  line-height: 2.188rem;
+  letter-spacing: -0.031rem;
 }
 
 .person_name{
     text-transform: uppercase;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: -0.18px;
 }
+.person_location{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    letter-spacing: 2.5px;
+
+}
+
 
 /** styles for footer section **/
 .footer{
@@ -218,18 +243,25 @@ font-weight: 500;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+    width: 69.313rem;
     margin: auto;
     background-color: var(--light-brown);
     padding-top: 3rem;
-    padding-bottom: 3rem;   
-    padding-left: 2rem;
-    padding-right: 10rem;
-  
+    padding-bottom: 3rem; 
+    margin-top: 2rem;  
+   
 }
 
 .footer p{
-    font-size: 0.8rem;
+    font-size: 0.938rem;
+    font-weight: 400;
+    line-height: 2.625rem;
+    letter-spacing: 0.08px;
+}
+.icons{
+    height: 1.875rem;
+    width: 1.813rem;
+    margin-left: 1rem;
 }
 
 
