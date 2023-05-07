@@ -6,7 +6,7 @@
     margin-right: 0.2rem;
     margin-left: 0.7rem;
     margin-top: 1rem;
-    width: 90%;
+    width: 343px;
     }
 
     .header_logo{
@@ -16,10 +16,10 @@
     }
     
     .head_button{
-       padding: 0.7rem;
+       padding: 0.6rem;
        font-weight: bold;
        border-radius: 0.5rem;
-       font-size: 0.6rem;
+       font-size: 0.875rem;
     }
 
     .section-about{
@@ -32,24 +32,29 @@
     }
 
     .ark{
-        margin-bottom: -2rem;
-        margin-left: 8rem;
+        margin-bottom: -4rem;
+        padding-left: 4rem;
+        
     }
 
     .first_text1{
-        font-size: 2rem;
+        font-size: 2.375rem;
+        line-height: 2.75rem;
         margin-top: 2rem;
         letter-spacing: 0.01rem;
         margin-bottom: 2rem;
         margin-left: 2.5rem;
+        width: 21.438rem;
     }
     
 
     .first_text2{
         margin-top: 10rem;
-        width: 80%;
+        width: 20.875rem;
         margin: auto;
+        margin-left: 2rem;
         margin-bottom: 1.5rem;
+        font-size: 1rem;
        }
 
        .first_button{
@@ -64,7 +69,7 @@
         margin: 0rem;
         z-index: 1;
         margin-top: 1rem;
-        width: 120%;
+        width: 21.438rem;
         height: 0px;
         margin-left: 0.5rem;
         
@@ -85,7 +90,7 @@
         display: flex;
         flex-direction: column;
         justify-content: start   ;
-        margin-bottom: 4rem; 
+        margin-bottom: 2rem; 
     }
 
     .third_text1
@@ -94,6 +99,7 @@
     color: var(--dark-blue);
     font-size: 2rem;
     font-weight: bold;  
+    margin-bottom: 1.5rem;
 }
 
 .testimonial{

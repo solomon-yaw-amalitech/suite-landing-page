@@ -19,7 +19,9 @@ body{
     background-color: var(--grey-light);
 }
 
-
+strong{
+    font-weight:900;
+   }
 
 
 /** styles for header **/
@@ -238,6 +240,8 @@ font-weight: 500;
 
 
 /** styles for footer section **/
+
+
 .footer{
     display: flex;
     flex-direction: row;
