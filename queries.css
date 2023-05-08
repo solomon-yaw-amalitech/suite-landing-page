@@ -6,7 +6,7 @@
     margin-right: 0.2rem;
     margin-left: 0.7rem;
     margin-top: 1rem;
-    width: 343px;
+    width: 443px;
     }
 
     .header_logo{
@@ -32,19 +32,24 @@
     }
 
     .ark{
-        margin-bottom: -4rem;
-        padding-left: 4rem;
+        position: absolute;
+        top: 3rem;
+        left: -8rem;
+        
         
     }
 
-    .first_text1{
+    .first_text1
+    {
+        
         font-size: 2.375rem;
         line-height: 2.75rem;
-        margin-top: 2rem;
+        margin-top: 6rem;
         letter-spacing: 0.01rem;
         margin-bottom: 2rem;
-        margin-left: 2.5rem;
-        width: 21.438rem;
+        margin-left: 3rem;
+        width: 26.438rem;
+    
     }
     
 
@@ -79,7 +84,7 @@
     .third{
         justify-content:flex-start;
         align-items: center;
-        flex-direction: row;
+        flex-direction: column;
         margin-left: 0rem;
         margin-top: 38rem;
         margin-left: 8rem;
@@ -112,7 +117,7 @@ font-size:1rem;
     display: flex;
     flex-direction: column;
    margin-top: 10rem;
-    width: 23.438rem;
+    width: 27.438rem;
     margin: auto;
     border-radius: 1rem;
     margin-left: 0.5rem;
@@ -121,7 +126,6 @@ font-size:1rem;
 .testimonial_image{
     margin-top: -6rem;
     padding-left: 2rem;
-    padding-left: 0rem;
     padding-right: 1rem;
     width: 15.75rem;
     height: 25.125rem;
@@ -167,6 +171,8 @@ font-size:1rem;
 }
 
 /** media query for tablets**/
+
+/**
 @media only screen and (max-width:1023px) {
 
     .testimonial{
@@ -181,7 +187,7 @@ font-size:1rem;
 
 }
 
-@media only screen and (max-width:1200px)
+@media only screen and (max-width:800px)
 {
     .header{
        
@@ -288,3 +294,4 @@ font-size:1rem;
   }
 
 }
+*/
