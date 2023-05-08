@@ -60,6 +60,7 @@
        .first_button{
         margin-top: 2rem;
         margin: auto;
+        margin-bottom: 2rem;
     }
     .second{
         margin-bottom: 5rem;
@@ -71,7 +72,7 @@
         margin-top: 1rem;
         width: 21.438rem;
         height: 0px;
-        margin-left: 0.5rem;
+        margin: auto;
         
     }
 
@@ -82,7 +83,7 @@
         margin-left: 0rem;
         margin-top: 38rem;
         margin-left: 8rem;
-    
+        margin-bottom: 7rem;
         
     }
 
@@ -90,39 +91,55 @@
         display: flex;
         flex-direction: column;
         justify-content: start   ;
-        margin-bottom: 2rem; 
+        margin-bottom: 1rem; 
     }
 
     .third_text1
 {
     margin-top: 2rem;
     color: var(--dark-blue);
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;  
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.third_text2{
+    
+font-size:1rem;
 }
 
 .testimonial{
     display: flex;
     flex-direction: column;
    margin-top: 10rem;
-    width: 112%;
+    width: 23.438rem;
     margin: auto;
     border-radius: 1rem;
     margin-left: 0.5rem;
 }
 
 .testimonial_image{
-    margin-top: 2rem;
     margin-top: -6rem;
     padding-left: 2rem;
-    padding-left: 2rem;
-    margin-right: 40rem;
+    padding-left: 0rem;
+    padding-right: 1rem;
+    width: 15.75rem;
+    height: 25.125rem;
+    margin-bottom: 6rem;
 }
 
+
 .testimonial_title{
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 2rem;
+  }
+
+  .testimonial_message{
+    font-size: 1.125rem;
+  }
+
+  .ark2{
+   margin-left: 7rem; 
   }
 
   .footer{
@@ -132,7 +149,7 @@
     align-items: center;
     align-content: center;
     width: 60%;
-    margin-left: 0.8rem;
+    margin-left: 5rem;
 }
 
 .footer h1{
@@ -144,6 +161,7 @@
 .footer p{
     font-size: 0.8rem;
     margin-bottom: 1rem;
+
   }
 
 }
