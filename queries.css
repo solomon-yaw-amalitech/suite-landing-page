@@ -1,5 +1,8 @@
 /** media query for smaller screen size, especially mobile phones **/
 @media only screen and (max-width: 600px) {
+  body {
+  }
+
   .header {
     margin: 0rem;
     margin-right: 0.2rem;
@@ -174,7 +177,7 @@
 
 }
 
-@media only screen and (max-width:800px)
+@media only screen and (min-width:321px) and (max-width:768px)
 {
     .header{
        
