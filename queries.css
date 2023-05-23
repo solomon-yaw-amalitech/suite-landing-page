@@ -1,5 +1,5 @@
 /** media query for smaller screen size, especially mobile phones **/
-@media only screen and (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 480px) {
   body {
   }
 
@@ -288,12 +288,12 @@
 }
 */
 
-/** @media only screen and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px)  {
   .header {
     width: 849px;
   }
   .section-about {
-    margin-bottom: 18rem;
+    margin-bottom: 30rem;
   }
 
   .third {
@@ -307,10 +307,34 @@
   }
   .testimonial {
     width: 849px;
+    flex-direction:column;
   }
 
   .testimonial_title {
     font-size: 2rem;
+  }
+  .testimonial_text{
+    text-align:center;
+   
+  }
+
+  .person{
+    text-align:center;
+  }
+  .testimonial_img
+  {
+    margin-left:10rem;
+    margin-top:-10rem;
+  }
+
+  .ark2{
+    margin-top:2rem;
+    margin-left:22rem;
+    margin-bottom:4rem;
+  }
+
+  .person_name{
+    margin-left:-10rem;
   }
 
   .footer {
