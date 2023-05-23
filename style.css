@@ -13,6 +13,7 @@
 }
 body {
   background-color: var(--grey-light);
+  margin: auto;
 }
 
 strong {
