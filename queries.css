@@ -287,3 +287,34 @@
 
 }
 */
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  .header {
+    width: 849px;
+  }
+  .section-about {
+    margin-bottom: 18rem;
+  }
+
+  .third {
+    position: absolute;
+    flex-direction: row;
+    top: 48rem;
+    left: 10rem;
+  }
+  .achievement {
+    margin-left: 12rem;
+  }
+  .testimonial {
+    width: 849px;
+  }
+
+  .testimonial_title {
+    font-size: 2rem;
+  }
+
+  .footer {
+    width: 889px;
+    margin-left: -3rem;
+  }
+}
