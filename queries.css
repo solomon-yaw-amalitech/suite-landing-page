@@ -169,7 +169,10 @@
 
 @media (min-width: 768px) and (max-width: 1024px)  {
   .header {
-    width: 849px;  
+    width: 769px;  
+  }
+  main{
+    overflow:hidden;
   }
 
   .first_text1 {
@@ -188,10 +191,11 @@
     left: 10rem;
   }
   .achievement {
-    margin-left: 12rem;
+    margin-left: 8rem;
   }
   .testimonial {
     width: 849px;
+    margin-left:3rem;
     flex-direction:column;
     
   }
@@ -224,8 +228,8 @@
   }
 
   .footer {
-    width: 889px;
-    margin-left: -3rem;
+    width: 839px;
+    margin-left: 1rem;
   }
 }
 */
