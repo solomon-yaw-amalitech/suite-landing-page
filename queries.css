@@ -118,7 +118,7 @@
     width: 22.438rem;
     margin: auto;
     border-radius: 1rem;
-    margin-left: 2.5rem;
+    margin-left: 1rem;
   }
 
   .testimonial_image {
@@ -193,6 +193,7 @@
   .testimonial {
     width: 849px;
     flex-direction:column;
+    
   }
 
   .testimonial_title {
