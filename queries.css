@@ -4,13 +4,17 @@
     
   }
   
-
+  .ark{
+    overflow: hidden;
+  }
   .header {
     margin: 0rem;
     margin-right: 0.2rem;
     margin-left: 1rem;
     margin-top: 1rem;
     width: 443px;
+    
+
   }
 
   .header_logo {
