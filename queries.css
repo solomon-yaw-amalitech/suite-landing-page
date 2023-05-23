@@ -288,7 +288,7 @@
 }
 */
 
-@media only screen and (min-width: 321px) and (max-width: 768px) {
+/** @media only screen and (max-width: 768px) {
   .header {
     width: 849px;
   }
@@ -318,3 +318,4 @@
     margin-left: -3rem;
   }
 }
+*/
