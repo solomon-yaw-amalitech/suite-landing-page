@@ -38,6 +38,10 @@ strong {
   color: var(--dark-blue);
 }
 
+.ark-mobile {
+  display: none;
+}
+
 .ark2 {
   margin-top: 10rem;
   margin-left: 1.5rem;
@@ -140,6 +144,10 @@ strong {
   z-index: 1;
   margin-bottom: 2rem;
   width: 21.875rem;
+}
+
+.second_img_mobile {
+  display: none;
 }
 
 .second_image {
