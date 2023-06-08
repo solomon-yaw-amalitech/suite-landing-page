@@ -137,6 +137,10 @@
     border-radius: 1rem;
     margin-left: 0rem;
   }
+  .testimonial_text > .testimonial_message{
+    width:22rem;
+    margin-left:-3.5rem;
+  }
 
   .testimonial_image {
     margin-top: -15rem;
@@ -159,8 +163,9 @@
   }
 
   .testimonial_title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 2rem;
+    
   }
 
   .testimonial_message {
