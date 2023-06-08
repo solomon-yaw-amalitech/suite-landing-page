@@ -199,6 +199,7 @@
   .footer p {
     font-size: 0.8rem;
     margin-bottom: 1rem;
+   
   }
 }
 
@@ -292,7 +293,7 @@
 
   .footer {
     width:759px;
-    margin-left: 0rem;
+    margin-left: -2rem;
   }
 }
 */
