@@ -3,8 +3,8 @@
   
  
   .header {
-    margin-left:2rem
-    margin-top: 1rem;
+    margin-left:2rem;
+    margin-top: 1.5rem;
     width: 340px;
     margin:auto;
     
@@ -215,6 +215,7 @@
   .header {
     width: 729px; 
    margin:auto;
+   margin-top:2rem;
   }
   
   .header_logo{
