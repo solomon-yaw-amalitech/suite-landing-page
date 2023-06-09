@@ -239,7 +239,7 @@
 
   .section-about {
     margin-bottom: 30rem;
-    margin-left: 0rem;
+    
   }
   .ark {
     margin-top: 5rem;
@@ -264,7 +264,7 @@
   }
   .testimonial {
     width: 749px;
-    margin-left:0.4rem;
+    margin:auto;
     flex-direction:column;
     
   }
