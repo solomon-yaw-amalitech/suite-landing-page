@@ -1,10 +1,7 @@
 /** media query for smaller screen size, especially mobile phones **/
 @media (min-width: 320px) and (max-width: 480px) {
   
-  main{
-    overflow:hidden;
-  }
-
+ 
   .header {
     margin: 0rem;
     margin-right: 0.2rem;
