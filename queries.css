@@ -1,7 +1,10 @@
 /** media query for smaller screen size, especially mobile phones **/
 @media (min-width: 320px) and (max-width: 480px) {
   
- 
+  main{
+    overflow:hidden;
+  }
+
   .header {
     margin: 0rem;
     margin-right: 0.2rem;
@@ -133,9 +136,11 @@
     flex-direction: column;
     margin-top: 10rem;
     width: 24.438rem;
-    margin: auto;
+    margin-right:0rem;
     border-radius: 1rem;
     margin-left: 0rem;
+    margin:auto;
+   
   }
   .testimonial_text > .testimonial_message{
     width:22rem;
