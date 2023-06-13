@@ -1,5 +1,6 @@
 /** media query for smaller screen size, especially mobile phones **/
 @media (min-width: 320px) and (max-width: 480px) {
+<<<<<<< HEAD
   .header {
     height: 48px;
     width: 343px;
@@ -195,11 +196,23 @@
   }
       
   }
+=======
+  
+}
+>>>>>>> 70256fda7ddaf5a852acf5465779488304f7546f
 
 /** media query for tablets**/
 
 @media (min-width: 768px) and (max-width: 1024px) {
+<<<<<<< HEAD
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+=======
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+>>>>>>> 70256fda7ddaf5a852acf5465779488304f7546f
 }
