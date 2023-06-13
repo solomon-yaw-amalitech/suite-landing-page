@@ -31,6 +31,7 @@
     flex-direction: column;
     height: 325.3243713378906px;
     width: 343.5px;
+    margin:auto;
 
 
 
@@ -199,6 +200,107 @@
 /** media query for tablets**/
 
 @media (min-width: 768px) and (max-width: 1024px) {
+
+.header{
+  height: 56px;
+  width: 689px;
+}
+.section_about{
+  position:relative;
+  height: 482px;
+  width: 689px;
+}
+.ark{
+  margin-left:14rem;
+}
+.first_text1{
+  font-family: Epilogue;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -0.7777777910232544px;
+  text-align: left;
+  margin-left:3rem;
+}
+.first_text2{
+  margin-left:3rem;
+}
+
+.first_button{
+  margin-left:3rem;
+}
+
+.second_image{
+  margin-left:0rem
+}
+.third{
+  position:absolute;
+  flex-direction:row;
+  height: 83px;
+  width: 689px;
+  left: 0px;
+  top: 886px;
+  margin-left:3.4rem;
+
+}
+
+.testimonial{
+  flex-direction:column;
+  height: 884px;
+  width: 689px;
+  margin-top:37rem;
+}
+.ark2{
+  display:block;
+  margin-left:17rem;
+  margin-top:4rem;
+  margin-bottom: -3rem;
+}
+.testimonial_img{
+  margin:-16rem auto 0rem auto;
+  margin-left:10rem;
+}
+
+.testimonial_text{
+  text-align:center;
+}
+.testimonial_message{
+  height: 96px;
+  width: 573px;
+  font-family: Epilogue;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.09000000357627869px;
+  text-align: center;
+  margin-left:-8rem;
+  
+}
+
+.person_name{
+  font-family: Epilogue;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18000000715255737px;
+  margin-left:3rem;
+  
+}
+.person_location{
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 2.5px;
+  margin-left:5.3rem;
+  
+}
+
+.footer{
+  height: 32px;
+  width: 689px;
+}
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
