@@ -1,313 +1,205 @@
 /** media query for smaller screen size, especially mobile phones **/
 @media (min-width: 320px) and (max-width: 480px) {
-  
- 
   .header {
-    margin-left:2rem;
-    margin-top: 1.5rem;
-    width: 340px;
-    margin:auto;
-    
-
+    height: 48px;
+    width: 343px;
+    margin:20px auto 50px auto;
   }
-
   .header_logo {
-    font-weight: bolder;
-    font-size: 0.7rem;
-    margin-left: 1rem;
-    margin-top:1rem;
+    height: 32px;
+    width: 81px;
+    font-family: Epilogue;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.4444444477558136px;
+    text-align: left;
   }
 
   .head_button {
-    padding: 0.6rem;
-    font-weight: bold;
-    border-radius: 0.5rem;
-    font-size: 0.875rem;
-    margin-right: 0rem;
-    margin-top:1rem;
+    height: 48px;
+    width: 182px;
+    font-family: Epilogue;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.14000000059604645px;
+    text-align: center;
   }
 
   .section-about {
-    display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 1rem;
-  }
+    height: 325.3243713378906px;
+    width: 343.5px;
 
-  .ark {
-    position: absolute;
-    top: 3rem;
-    left: -9rem;
-    width: 200px;
-    display:none;
-  }
 
-  .ark-mobile {
-    display: block;
-    position: absolute;
-    top: 8rem;
-    left: 10rem;
-    width: 200px;
+
+  }
+  .ark{
+   display:none;
+   
+  }
+  .ark-mobile{
+    display:block;
+    margin-top:0rem;
+    margin-left:10.9rem;
+    margin-bottom:-3rem;
   }
 
   .first_text1 {
-    font-size: 2.375rem;
-    line-height: 2.75rem;
-    margin-top: 6rem;
-    letter-spacing: 0.01rem;
-    margin-bottom: 2rem;
-    margin-left: 0rem;
-    width: 22.438rem;
-  }
-
-  .first_text2 {
-    margin-top: 10rem;
-    width: 20.875rem;
-    margin: auto;
-    margin-left: 0rem;
-    margin-bottom: 1.5rem;
-    font-size: 1rem;
-  }
-
-  .first{
-  
-  }
-
-  .first_button {
-    margin-top: 2rem;
-    margin: auto;
-    margin-bottom: 2rem;
-  }
-  .second {
-    margin-bottom: 1rem;
-    height:20rem;
-    margin-top:1rem;
-
-  }
-
-  
-  .second_img_mobile {
-    display: block;
-    margin-top:-20rem;
-   margin-bottom:1rem;
-  }
-  .second_image_mobile{
-   margin-top:1rem;
-   margin-bottom:1rem;
-   width:22rem;
-   height:20rem
-  }
-
-  .third {
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-    margin-left: 0rem;
-    margin-top: 0rem;
-    margin-left: 1rem;
-    margin-bottom: 20rem;
-  }
-
-  .achievement {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    margin-bottom: 1rem;
-  }
-
-  .third_text1 {
-    margin-top: 2rem;
-    color: var(--dark-blue);
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-  }
-
-  .third_text2 {
-    font-size: 1rem;
-  }
-
-  .testimonial {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10rem;
-    width: 24.438rem;
-    margin-right:0rem;
-    border-radius: 1rem;
-    margin-left: 0rem;
-    margin:auto;
-   
-  }
-  .testimonial_text > .testimonial_message{
-    width:22rem;
-    margin-left:-3.5rem;
-  }
-
-  .testimonial_image {
-    margin-top: -15rem;
-    padding-left: 0rem;
-    padding-right: 1rem;
-    width: 13.75rem;
-    height: 25.125rem;
-    margin-bottom: 6rem;
-  }
-
-  .testimonial_img{
-    width:20rem;
-    margin:auto;
-    margin-left: 2.5rem;
-  }
-
-  .testimonial_text{
-    margin-left:0rem;
-    margin-left:5rem;
-  }
-
-  .testimonial_title {
-    font-size: 2.5rem;
-    margin-top: 2rem;
-    
-  }
-
-  .testimonial_message {
-    font-size: 1.425rem;
-  }
-   .person{
-    margin-left:-7rem;
+    height: 89px;
+    width: 343px;
+    margin-auto;
+    font-family: Epilogue;
+    font-size: 38px;
+    font-weight: 5  00;
+    line-height: 44px;
+    letter-spacing: -0.5277777910232544px;
     text-align: center;
    }
 
-   .person_location{
-    margin-left:2rem;
+   .first_text2{
+    height: 84px;
+    width: 343px;
+    text-align:left;
+    margin-left:1rem;
    }
 
-  .ark2 {
-    margin-left: 9rem;
-    margin-top:5rem;
-  }
+   .first_button{
+   margin-left:1rem;
+   }
 
-  .footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 60%;
-    margin-left: 5rem;
-  }
-
-  .footer h1 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    margin-left: 0.5rem;
-  }
-
-  .footer p {
-    font-size: 0.8rem;
-    margin-bottom: 1rem;
+   .second_img{
+    display:none;
+    
+   }
    
+   .second_img_mobile{
+    display:block;
+    text-align:center;
+    height: 240px;
+    width: 343px;
+    margin-left:0.5rem;
+    margin-top:3rem;
+    margin-bottom:3rem;
+   }
+
+   .second_image_mobile{
+    height: 240px;
+    width: 343px;
+   }
+   .third{
+    flex-direction:column;
+    justify-content:space-around;
+    height: 313px;
+    width: 30px;
+    margin-left: 9.5rem;
+   
+   }
+
+
+   .achievement{
+    margin-bottom:2rem;
+   }
+ 
+   .testimonial{
+    flex-direction:column;
+    height: 748px;
+    width: 375px;
+    border-radius: 15px;
+    margin-top:60rem;
+   }
+   .testimonial_image{
+    margin-top:-6rem;
+    margin-left:-3rem;
+   }
+   .testimonial_img{
+    height: 402px;
+    width: 252px;
+   }
+
+   .ark2{
+    margin-top:3rem;
+    margin:auto;
+   }
+
+   .testimonial_text{
+    margin:0px auto 0px auto;
+    text-align:center;
+   }
+
+   .testimonial_title{
+    font-family: Epilogue;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 48px;
+   letter-spacing: -0.4166666567325592px;
+   text-align: center;
+   }
+
+   .testimonial_message{
+    font-family: Epilogue;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.09000000357627869px;
+    text-align: center;
+    padding:10px;
+   }
+    
+   .person_name{
+    font-family: Epilogue;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 32px;
+   letter-spacing: -0.18000000715255737px;
+   text-align: center;
+
+   }
+
+   .person_location{
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+    text-align: center;
+    padding-bottom:3rem;
+ 
+   }
+   .footer{
+    flex-direction:column;
+    height: 150px;
+    width: 125px;
+    align-items:center;
+   }
+
+   .footer_logo{
+   font-family: Epilogue;
+   font-size: 32px;
+   font-weight: 700;
+   line-height: 32px;
+   letter-spacing: -0.4444444477558136px;
+   text-align: center;
   }
-}
+
+  .footer >p{
+    font-family: Epilogue;
+    font-size: 15px;
+   font-weight: 400;
+   line-height: 32px;
+   letter-spacing: 0.0833333358168602px;
+   text-align: center;
+  
+
+  }
+      
+  }
 
 /** media query for tablets**/
 
-@media (min-width: 768px) and (max-width: 1024px)  {
-  .header {
-    width: 729px; 
-   margin:auto;
-   margin-top:2rem;
-  }
-  
-  .header_logo{
-    margin-left:0rem;
-  }
-  main{
-    overflow:hidden;
-  }
-
-  .first_text1 {
-    width: 40.438rem;
-    font-size:3.5rem;
-    margin-left:-1.8rem;
-  }
-
-  .first_text2 {
-    margin-top: 4rem;
-    font-size:1.2rem;
-    line-height:2rem;
-    margin-left:-1.5rem;
-    word-wrap: break-word;
-  }
-
-   
-
-  .section-about {
-    margin-bottom: 30rem;
-    margin-left:2.5rem;
-    
-  }
-  .ark {
-    margin-top: 5rem;
-    margin-left: 8.5rem;
-    margin-bottom: -7rem;
-    color: var(--dark-blue);
-  }
-  .second_img {
-    margin-left: -42.9rem;
-    
-  }
-  
-
-  .third {
-    position: absolute;
-    flex-direction: row;
-    top: 48rem;
-    left: 10rem;
-  }
-  .achievement {
-    margin-left: 8rem;
-  }
-  .testimonial {
-    width: 749px;
-    margin:auto;
-    flex-direction:column;
-    
-  }
-
-  .testimonial_title {
-    font-size: 2rem;
-  }
-  .testimonial_text{
-    text-align:center;
-    margin-left:11rem;
-   
-  }
-
-
-  .person{
-    text-align:center;
-  }
-  .testimonial_img
-  {
-    margin-left:10rem;
-    margin-top:-10rem;
-  }
-
-  .ark2{
-    margin-top:2rem;
-    margin-left:22rem;
-    margin-bottom:4rem;
-  }
-
-  .person_name{
-    margin-left:-10rem;
-  }
-
-  .footer {
-    width:759px;
-    margin-left: -2rem;
-  }
+@media (min-width: 768px) and (max-width: 1024px) {
 }
-*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}

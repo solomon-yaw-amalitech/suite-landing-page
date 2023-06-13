@@ -11,57 +11,31 @@
   margin: 0;
   font-family: "Epilogue", sans-serif;
 }
-body {
-  background-color: var(--grey-light);
-  margin: auto;
-}
 
-strong {
-  font-weight: 900;
-}
-
-/** styles for header **/
 .header {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  margin: auto;
-  margin-top: 3.588rem;
   align-items: center;
-  width: 66.301rem;
-}
-
-.ark {
-  margin-top: 5rem;
-  margin-left: 18.5rem;
-  margin-bottom: -7rem;
-  color: var(--dark-blue);
-}
-
-.ark-mobile {
-  display: none;
-}
-
-.ark2 {
-  margin-top: 10rem;
-  margin-left: 1.5rem;
-  margin-right: -1rem;
+  width: 1108.85px;
+  height: 56px;
+  margin: 40px auto 70px auto;
 }
 
 .header_logo {
-  margin-left: 4rem;
-  font-weight: bolder;
+  width: 78.41px;
+  height: 24.8px;
   color: var(--dark-blue);
 }
 
 .head_button {
-  padding: 0.7rem;
-  color: var(--dark-blue);
-  border-radius: 0.5rem;
-  line-height: 2rem;
-  font-size: 1rem;
+  width: 219px;
+  height: 56px;
+  font-family: "Epilogue", sans-serif;
   font-weight: 700;
-  letter-spacing: -0.01rem;
+  font-size: 16px;
+  background-color: var(--grey-light);
+  color: var(--dark-blue);
+  border-radius: 5px;
 }
 
 .head_button:hover {
@@ -71,196 +45,201 @@ strong {
   transition: all 0.4s;
 }
 
-.head_button:active {
-  background-color: var(--dark-blue);
-}
-
-/** styles for About section **/
 .section-about {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 69.376rem;
-  margin: auto;
-  margin-bottom: 12rem;
-  margin-top: 3.15rem;
+  width: 1110px;
+  height: 600px;
+  margin: 0px auto 0px auto;
+}
+
+.ark-mobile {
+  display: none;
+}
+.second_img_mobile {
+  display: none;
 }
 
 .first {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  z-index: 1;
+}
+
+.ark {
+  margin-top: 4rem;
+  margin-bottom: -3rem;
+  margin-left: 18.8rem;
+  z-index: 3;
 }
 
 .first_text1 {
-  font-size: 4.5rem;
-  margin-top: 6rem;
-  letter-spacing: 0.05rem;
-  color: var(--dark-blue);
+  font-family: "Epilogue", sans-serif;
   font-weight: 400;
-  line-height: 4.875rem;
+  font-size: 72px;
+  line-height: 78px;
   letter-spacing: -1px;
-  margin-top: 7.5881rem;
+  z-index: 3;
+  margin-top: 3.5rem;
 }
 
 .first_text2 {
-  margin-top: 4rem;
-  width: 40%;
   color: var(--grey-dark);
-  line-height: 2rem;
+  width: 350px;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: Epilogue;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.18000000715255737px;
+  text-align: left;
 }
 
 .first_button {
-  margin-top: 4rem;
-  width: 16rem;
-  line-height: 2rem;
-  background-color: var(--dark-blue);
-  color: var(--cream-white);
-  padding: 0.65rem;
-  border: none;
+  height: 61px;
+  width: 256px;
+  border-radius: 0px;
+  font-family: Epilogue;
+  font-size: 18px;
   font-weight: 700;
-  font-size: 1.125rem;
-  border-radius: 0.4rem;
-  -o-transition-delay: 2s;
+  line-height: 32px;
+  letter-spacing: -0.18000000715255737px;
+  text-align: center;
+  color: var(--cream-white);
+  background: var(--dark-blue);
 }
-
 .first_button:hover {
   background-image: linear-gradient(to right, violet, rgb(240, 75, 10));
   transition: all 0.4s;
   cursor: pointer;
-}
-
-.first_button:active {
-  background-image: linear-gradient(to right, violet, rgb(240, 75, 10));
-}
-
-.second {
-  margin-bottom: 0.5rem;
+  border: none;
 }
 
 .second_img {
-  margin-left: -30.8rem;
+  margin-left: -8.2rem;
   z-index: 1;
-  margin-bottom: 2rem;
-  width: 21.875rem;
-}
-
-.second_img_mobile {
-  display: none;
-}
-
-.second_image {
-  margin-top: 1.5rem;
 }
 
 .third {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  margin-left: -11rem;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-}
-
-.achievement {
-  display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  width: 190px;
+  height: 375px;
+  margin: auto;
+  margin-left: 6rem;
 }
 
 .third_text1 {
-  margin-top: 1rem;
-  color: var(--dark-blue);
-  font-size: 3rem;
-  line-height: 3.5;
+  font-family: Epilogue;
+  font-size: 48px;
   font-weight: 700;
-}
-.third_text2 {
-  text-transform: uppercase;
-  font-size: 1rem;
-  color: var(--grey-dark);
-  margin-top: -3.5rem;
-  font-weight: 500;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  text-align: left;
 }
 
-/** styles for testimonial section **/
+.third_text2 {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 2.5px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
 .testimonial {
   display: flex;
-  background-color: var(--dark-blue);
-  color: var(--cream);
-  width: 69.313rem;
-  margin: auto;
-  border-radius: 1rem;
+  flex-direction: row;
+  height: 505px;
+  width: 1109px;
+  border-radius: 15px;
+  background: var(--dark-blue);
+  margin: 170px auto 10px auto;
 }
 
-.testimonial_image {
-  margin-top: -4rem;
-  padding-left: 4rem;
-  z-index: 2;
+.testimonial_img {
+  margin-left: 7rem;
+  height: 585.5569458007812px;
+  width: 359.81011962890625px;
+  margin-top: -5rem;
+}
+
+.ark2 {
+  margin-top: 9rem;
+  margin-left: 2.5rem;
 }
 
 .testimonial_text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 5rem;
+  height: 369px;
+  width: 350px;
+  margin: auto auto auto auto;
 }
 
 .testimonial_title {
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
-  font-weight: 400;
-  line-height: 3.5rem;
-  letter-spacing: -0.031rem;
+  margin-bottom: 2rem;
+  font-family: Epilogue;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: var(--cream-white);
 }
 
-.testimonial_text p {
-  font-weight: 400;
-  width: 80%;
+.testimonial_message {
   margin-bottom: 2rem;
-  font-size: 1.25;
-  line-height: 2.188rem;
-  letter-spacing: -0.031rem;
+  font-family: Epilogue;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: var(--cream);
 }
 
 .person_name {
-  text-transform: uppercase;
-  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+  font-family: Epilogue;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 2rem;
-  letter-spacing: -0.18px;
-}
-.person_location {
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.625rem;
-  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  line-height: 32px;
+  letter-spacing: -0.18000000715255737px;
+  text-align: left;
+  color: var(--cream-white);
 }
 
-/** styles for footer section **/
+.person_location {
+  color: var(--cream);
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 2.5px;
+  text-align: left;
+}
 
 .footer {
+  height: 32px;
+  width: 1109px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  width: 69.313rem;
-  margin: auto;
-  background-color: var(--light-brown);
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  margin-top: 2rem;
-  margin-left: 3rem;
+  margin: 80px auto 70px auto;
 }
 
-.footer p {
-  font-size: 0.938rem;
-  font-weight: 400;
-  line-height: 2.625rem;
-  letter-spacing: 0.08px;
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 32px;
+  width: 116px;
 }
 .icons {
-  height: 1.875rem;
-  width: 1.813rem;
-  margin-left: 1rem;
+  font-size: 25px;
 }
