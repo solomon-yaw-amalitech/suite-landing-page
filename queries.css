@@ -252,7 +252,7 @@
 }
 .ark2{
   display:block;
-  margin-left:17rem;
+  margin-left:18rem;
   margin-top:4rem;
   margin-bottom: -3rem;
 }
@@ -264,6 +264,9 @@
 .testimonial_text{
   text-align:center;
 }
+.testimonial_title{
+  text-align:center;
+}
 .testimonial_message{
   height: 96px;
   width: 573px;
@@ -273,7 +276,7 @@
   line-height: 32px;
   letter-spacing: 0.09000000357627869px;
   text-align: center;
-  margin-left:-8rem;
+  margin-left: -6.8rem;
   
 }
 
@@ -283,7 +286,7 @@
   font-weight: 700;
   line-height: 32px;
   letter-spacing: -0.18000000715255737px;
-  margin-left:3rem;
+  margin-left:5rem;
   
 }
 .person_location{
@@ -292,7 +295,7 @@
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 2.5px;
-  margin-left:5.3rem;
+  margin-left:7.3rem;
   
 }
 
