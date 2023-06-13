@@ -1,0 +1,232 @@
+:root {
+  --dark-blue: #172339;
+  --grey-dark: #49566d;
+  --cream-white: #faf8f6;
+  --grey-light: #f2f2f2;
+  --cream: #f3ede7;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Epilogue", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1108.85px;
+  height: 56px;
+  margin: 40px auto 70px auto;
+}
+
+.header_logo {
+  width: 78.41px;
+  height: 24.8px;
+  color: var(--dark-blue);
+}
+
+.head_button {
+  width: 219px;
+  height: 56px;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: var(--grey-light);
+  color: var(--dark-blue);
+  border-radius: 5px;
+}
+
+.section-about {
+  display: flex;
+  width: 1110px;
+  height: 600px;
+  margin: 0px auto 0px auto;
+}
+
+.ark-mobile {
+  display: none;
+}
+.second_img_mobile {
+  display: none;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+}
+
+.ark {
+  margin-top: 4rem;
+  margin-bottom: -3rem;
+  margin-left: 18.8rem;
+  z-index: 3;
+}
+
+.first_text1 {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 78px;
+  letter-spacing: -1px;
+  z-index: 3;
+  margin-top: 3.5rem;
+}
+
+.first_text2 {
+  color: var(--grey-dark);
+  width: 350px;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: Epilogue;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.18000000715255737px;
+  text-align: left;
+}
+
+.first_button {
+  height: 61px;
+  width: 256px;
+  border-radius: 0px;
+  font-family: Epilogue;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18000000715255737px;
+  text-align: center;
+  color: var(--cream-white);
+  background: var(--dark-blue);
+}
+
+.second_img {
+  margin-left: -8.2rem;
+  z-index: 1;
+}
+
+.third {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 190px;
+  height: 375px;
+  margin: auto;
+  margin-left: 6rem;
+}
+
+.third_text1 {
+  font-family: Epilogue;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+
+.third_text2 {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 2.5px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: row;
+  height: 505px;
+  width: 1109px;
+  border-radius: 15px;
+  background: var(--dark-blue);
+  margin: 170px auto 10px auto;
+}
+
+.testimonial_img {
+  margin-left: 7rem;
+  height: 585.5569458007812px;
+  width: 359.81011962890625px;
+  margin-top: -5rem;
+}
+
+.ark2 {
+  margin-top: 9rem;
+  margin-left: 2.5rem;
+}
+
+.testimonial_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 369px;
+  width: 350px;
+  margin: auto auto auto auto;
+}
+
+.testimonial_title {
+  margin-bottom: 2rem;
+  font-family: Epilogue;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: var(--cream-white);
+}
+
+.testimonial_message {
+  margin-bottom: 2rem;
+  font-family: Epilogue;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: var(--cream);
+}
+
+.person_name {
+  margin-bottom: 0.5rem;
+  font-family: Epilogue;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 32px;
+  letter-spacing: -0.18000000715255737px;
+  text-align: left;
+  color: var(--cream-white);
+}
+
+.person_location {
+  color: var(--cream);
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 2.5px;
+  text-align: left;
+}
+
+.footer {
+  height: 32px;
+  width: 1109px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 80px auto 70px auto;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 32px;
+  width: 116px;
+}
+.icons {
+  font-size: 25px;
+}
