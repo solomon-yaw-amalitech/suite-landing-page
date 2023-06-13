@@ -107,6 +107,7 @@
   text-align: center;
   color: var(--cream-white);
   background: var(--dark-blue);
+  border-radius: 7px;
 }
 .first_button:hover {
   background-image: linear-gradient(to right, violet, rgb(240, 75, 10));
