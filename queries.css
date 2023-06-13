@@ -93,8 +93,8 @@
     justify-content:space-around;
     height: 313px;
     width: 30px;
-    margin-left: 9.5rem;
-   
+    margin-left: 8rem;
+     margin-top:2rem;
    }
 
 
@@ -107,7 +107,7 @@
     height: 748px;
     width: 375px;
     border-radius: 15px;
-    margin-top:60rem;
+    margin-top:58rem;
    }
    .testimonial_image{
     margin-top:-6rem;
