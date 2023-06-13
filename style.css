@@ -38,7 +38,6 @@
   border-radius: 5px;
 }
 
-<<<<<<< HEAD
 .head_button:hover {
   background-color: var(--dark-blue);
   color: var(--cream-white);
@@ -46,8 +45,6 @@
   transition: all 0.4s;
 }
 
-=======
->>>>>>> 70256fda7ddaf5a852acf5465779488304f7546f
 .section-about {
   display: flex;
   width: 1110px;
@@ -110,15 +107,12 @@
   text-align: center;
   color: var(--cream-white);
   background: var(--dark-blue);
-<<<<<<< HEAD
 }
 .first_button:hover {
   background-image: linear-gradient(to right, violet, rgb(240, 75, 10));
   transition: all 0.4s;
   cursor: pointer;
   border: none;
-=======
->>>>>>> 70256fda7ddaf5a852acf5465779488304f7546f
 }
 
 .second_img {
